@@ -1,9 +1,8 @@
 export class FaceSnap {
-  constructor(
-    public title: string,
-    public description: string,
-    public imageURL: string,
-    public createdDate: Date,
-    public snaps: number
-  ) {}
+  title!: string;
+  description!: string;
+  imageURL!: string;
+  createdDate!: Date;
+  snaps!: number;
+  location?: string;
 }
