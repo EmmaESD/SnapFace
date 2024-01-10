@@ -5,7 +5,9 @@
   >
     <div class="title">
       <h2>{{ faceSnap.title }}</h2>
-      <p>Mis en ligne le {{ faceSnap.createdDate }}</p>
+      <p>
+        Mis en ligne {{ faceSnap.createdDate | date : "à HH:mm, le d MMM yyy" }}
+      </p>
     </div>
     <img [src]="faceSnap.imageURL" [alt]="faceSnap.title" />
     <div class="text-card">
