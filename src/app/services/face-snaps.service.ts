@@ -7,6 +7,7 @@ import { FaceSnap } from '../models/face-snap.model';
 export class FaceSnapsService {
   faceSnaps: FaceSnap[] = [
     {
+      id: 1,
       title: 'Archibald',
       description: 'Mon meilleur ami',
       imageURL:
@@ -19,5 +20,16 @@ export class FaceSnapsService {
 
   getAllFaceSnaps(): FaceSnap[] {
     return this.faceSnaps;
+  }
+
+  snapFaceSnapById(faceSnapId: number): void {
+    const faceSnap = this.faceSnaps.find(
+      (faceSnap) => faceSnap.id === faceSnapId
+    );
+    if (faceSnap) {
+      faceSnap.snaps++;
+    } else {
+      throw new Error('FaceSnap not found !');
+    }
   }
 }
