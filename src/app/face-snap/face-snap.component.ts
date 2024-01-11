@@ -21,7 +21,7 @@ export class FaceSnapComponent implements OnInit {
     this.description = 'Mon meilleur ami';
     this.snaps = 6;
     this.imageURL =
-      'https://pixabay.com/get/g1e713641af15abaa60dbb2a52d614eba37bc66557f1ab20088e2bbaa9288f9f1d148fb132f98493acd922950216cb0d4_640.jpg';
+      'https://pixabay.com/get/g407660226a85ec39410f7b156445d7a3731a05df3190b1d56d953c41f0c395b39806a2faf22f360b10284a7dcee5b9c4d95958d9d585189321b057b99d264ef7_1280.jpg';
     this.buttonText = 'Oh Snap !';
   }
 
