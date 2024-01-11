@@ -22,14 +22,19 @@ export class FaceSnapsService {
     return this.faceSnaps;
   }
 
-  snapFaceSnapById(faceSnapId: number): void {
+  getFaceSnapById(faceSnapId: number): FaceSnap {
     const faceSnap = this.faceSnaps.find(
       (faceSnap) => faceSnap.id === faceSnapId
     );
-    if (faceSnap) {
-      faceSnap.snaps++;
-    } else {
+    if (!faceSnap) {
       throw new Error('FaceSnap not found !');
+    } else {
+      return faceSnap;
     }
+  }
+
+  snapFaceSnapById(faceSnapId: number, snaptype: 'snap' | 'unsnap'): void {
+    const facesnap = this.getFaceSnapById(faceSnapId);
+    snaptype === 'snap' ? facesnap.snaps++ : facesnap.snaps--;
   }
 }
