@@ -9,21 +9,3 @@
   width: 100%;
   text-align: center;
 }
-
-button {
-  border: none;
-  padding: 10px;
-  color: white;
-  background-color: #c4a4ad9f;
-  border: 1px #4d4547eb;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-button:hover {
-  box-shadow: 0.9px 1.5px 2.7px rgba(0, 0, 0, 0.07),
-    2.3px 3.9px 6.9px rgba(0, 0, 0, 0.048),
-    4.8px 8px 14.2px rgba(0, 0, 0, 0.039),
-    9.9px 16.4px 29.2px rgba(0, 0, 0, 0.031),
-    27px 45px 80px rgba(0, 0, 0, 0.022);
-}
