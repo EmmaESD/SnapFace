@@ -16,4 +16,8 @@ export class FaceSnapsService {
       location: 'Paris',
     },
   ];
+
+  getAllFaceSnaps(): FaceSnap[] {
+    return this.faceSnaps;
+  }
 }
