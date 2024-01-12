@@ -10,9 +10,10 @@ import { FaceSnapListComponent } from './face-snap-list/face-snap-list.component
 import { HeaderComponent } from './header/header.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { SingleFaceSnapComponentComponent } from './single-face-snap-component/single-face-snap-component.component';
+import { FormComponent } from './form/form.component';
 
 @NgModule({
-  declarations: [AppComponent, FaceSnapComponent, FaceSnapListComponent, HeaderComponent, LandingPageComponent, SingleFaceSnapComponentComponent],
+  declarations: [AppComponent, FaceSnapComponent, FaceSnapListComponent, HeaderComponent, LandingPageComponent, SingleFaceSnapComponentComponent, FormComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [{ provide: LOCALE_ID, useValue: 'fr-FR' }],
   bootstrap: [AppComponent],
