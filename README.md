@@ -1,27 +1,15 @@
 # Snapface
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.9.
+It's a school project with OpenClassroom Tutorial. 
 
-## Development server
+SnapFace is a one-week school project. The goal was to learn how to use Angular by selecting a tutorial and creating a project. I chose the Snap Face project from the OpenClassroom website.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+SnapFace is a photo-sharing application.
 
-## Code scaffolding
+On the home screen, there is the SnapFace logo with links redirecting to different pages, using the route method.
+![home](https://github.com/EmmaESD/Snapface/assets/146380703/bd7e17ff-6dea-4ad2-8bfb-d5d8c1440c81)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+On the facesnap page, there is a list of photo posts with a form for publishing new photos. On each post preview, there is a link to view the entire post.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+On the post page, we can see the posted image, and a button allows adding "snaps" or "likes."
+![facesnap](https://github.com/EmmaESD/Snapface/assets/146380703/27660460-f164-4de8-bea6-737707bdf32d)
